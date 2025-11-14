@@ -17,3 +17,12 @@ local function Decrypt(str)
     end
     return table.concat(result)
 end
+
+local success, encrypt = pcall(function()
+    return loadstring(game:HttpGet("https://raw.githubusercontent.com/Perczll/Luau/refs/heads/main/Encryption.lua"))()
+end)
+
+return {
+    Encrypt = Encrypt,
+    Decrypt = Decrypt
+}
