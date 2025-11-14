@@ -1,6 +1,6 @@
 local key = 123
 
-getgenv().Path
+getgenv().Path = ""
 
 local function Encrypt(str)
     local result = {}
