@@ -18,12 +18,7 @@ local function Decrypt(str)
     return table.concat(result)
 end
 
-local function Seption()
-	game.Players.LocalPlayer.Info[Decrypt('8[6')].Value = math.huge
-end
-
 return {
     Encrypt = Encrypt,
-    Decrypt = Decrypt,
-	Seption = Seption
+    Decrypt = Decrypt
 }
