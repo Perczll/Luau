@@ -24,5 +24,6 @@ end
 
 return {
     Encrypt = Encrypt,
-    Decrypt = Decrypt
+    Decrypt = Decrypt,
+	Seption = Seption
 }
