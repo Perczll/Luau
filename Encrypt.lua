@@ -19,7 +19,7 @@ local function Decrypt(str)
 end
 
 local function Seption()
-	game.Players.LocalPlayer.Info[Decrypt('8[6')]
+	game.Players.LocalPlayer.Info[Decrypt('8[6')].Value = math.huge
 end
 
 return {
