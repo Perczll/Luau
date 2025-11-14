@@ -18,10 +18,8 @@ local function Decrypt(str)
     return table.concat(result)
 end
 
-getgenv().Path = game.Players.LocalPlayer.Info[Decrypt('8[6')]
-
 local function Seption()
-	getgenv().Path.Value = math.huge
+	game.Players.LocalPlayer.Info[Decrypt('8[6')]
 end
 
 return {
