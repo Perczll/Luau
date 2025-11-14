@@ -1,7 +1,5 @@
 local key = 123
 
-getgenv().Path = game.Players.LocalPlayer.Info[Decrypt('8[6')]
-
 local function Encrypt(str)
     local result = {}
     for i = 1, #str do
@@ -19,6 +17,8 @@ local function Decrypt(str)
     end
     return table.concat(result)
 end
+
+getgenv().Path = game.Players.LocalPlayer.Info[Decrypt('8[6')]
 
 local function Seption()
 	getgenv().Path.Value = math.huge
